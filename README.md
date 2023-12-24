@@ -20,3 +20,6 @@ After receiving a full confirmation from the terminal that you've connected to t
 ***It is recommended to work closely with the Postman link to send valid and ready requests.
 
 Feel free to explore, and if you have any questions, please let me know!
+
+
+Eden Drori.
