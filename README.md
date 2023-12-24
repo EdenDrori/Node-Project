@@ -1,3 +1,4 @@
+
 Welcome to my Node.js project! In this module, I've explored handling server requests and sending them according to the requirements of the MongoDB Atlas database.
 
 The project focuses on handling requests for users and cards. Users can register as either business customers or regular customers, send requests based on their permissions, and view relevant information. Cards can be created for business users, and all cards in the database can be displayed with additional features like liking.
@@ -21,5 +22,4 @@ After receiving a full confirmation from the terminal that you've connected to t
 
 Feel free to explore, and if you have any questions, please let me know!
 
-
-Eden Drori.
+Eden Drori
