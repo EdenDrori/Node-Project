@@ -1,7 +1,6 @@
 import configDotEnv from "./config";
 import express, { json } from "express";
 import { notFound } from "./middleware/not-found";
-import { peopleRouter } from "./routes/people";
 import { usersRouter } from "./routes/users";
 import { connect } from "./database/connection";
 import { errorHandler } from "./middleware/error-handler";
