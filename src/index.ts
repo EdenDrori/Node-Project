@@ -9,7 +9,6 @@ import morgan from "morgan";
 import cors from "cors";
 import { cardsRouter } from "./routes/cards";
 
-
 configDotEnv();
 connect();
 
@@ -27,9 +26,7 @@ app.use(json());
 app.use(morgan("prod"));
 app.use("/api/v1/users", usersRouter); //next(err)
 app.use("/api/v1/cards", cardsRouter);
-app.use("/api/v1/people", peopleRouter);
 app.use(errorHandler);
 app.use(notFound);
 
 app.listen(8080);
-
