@@ -4,7 +4,7 @@ import { auth } from "../service/auth-service";
 import { User } from "../database/model/user";
 
 const extractToken = (req: Request) => {
-  const authHeader = req.header("Authorization"); //"bearer aslkfdjasfl2ejroi2ejwroi32jerf"
+  const authHeader = req.header("Authorization"); 
 
   if (
     authHeader &&
@@ -17,7 +17,8 @@ const extractToken = (req: Request) => {
 };
 
 const isAdmin: RequestHandler = async (req, res, next) => {
-  const token = extractToken(req); //eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6IldpbGxpc0BiYXRjYXZlLmNvbSIsImlhdCI6MTcwMjU0NzM4N30.hD91HgG16KwP3T-sVj0DrcasaG7hHiDdkCR0s9WuHn4
+  try{
+  const token = extractToken(req); 
   const { email } = auth.verifyJWT(token);
 
   //get user from database
@@ -29,6 +30,8 @@ const isAdmin: RequestHandler = async (req, res, next) => {
   }
 
   return res.status(401).json({ message: "Must be admin" });
-};
-
+}catch(e){
+  next(e)
+}
+}
 export { isAdmin, extractToken };
