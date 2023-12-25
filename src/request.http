@@ -1,10 +1,5 @@
 //users requests:
 
-//admin token:
-//eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsImlhdCI6MTcwMzE1NDUwMH0.XaRGi5cil98w2anyMwjTI90u4Wq9Dk2UIDBdLBC4qCY
-
-//edenBiz token:
-//eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6IkRST1JJQGJhdGNhdmUuY29tIiwiaWF0IjoxNzAzMTU0NjI0fQ.4FzMV4CUu24FOgBdVkqSnmxfqD7ObeaLEwq7d3Ax2ZY
 
 ### GET All users:
 GET http://localhost:8080/api/v1/users
