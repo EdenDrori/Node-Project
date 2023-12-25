@@ -117,7 +117,4 @@ router.patch("/:id", isUser, async (req, res, next) => {
 
 export { router as usersRouter };
 
-//Database:
-//connect, mongo-schema, model
-//Router:
-//validate body (joi-schema), other route logic
+

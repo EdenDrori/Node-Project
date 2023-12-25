@@ -25,10 +25,7 @@ web:Joi.string().min(1).max(50).allow(""),
     .required()
     .min(5),
   phone: Joi.string().min(9).max(15).required().pattern(phoneRegex),  
-// bizNumber:Joi.number().min(5).max(999999999999999).allow(),
-// userId:Joi.string().min(20).max(30).allow(""),
-// likes:Joi.array().items(Joi.string()).default([]).allow(),
-//   createdAt: Joi.date().allow().default(new Date()),
+
 });
 
 export { schema as joiCardSchema };

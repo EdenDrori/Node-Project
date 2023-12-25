@@ -23,7 +23,7 @@ app.use(express.static("public"));
 // middleware chain:
 app.use(json());
 app.use(morgan("prod"));
-app.use("/api/v1/users", usersRouter); //next(err)
+app.use("/api/v1/users", usersRouter); 
 app.use("/api/v1/cards", cardsRouter);
 app.use(errorHandler);
 app.use(notFound);
