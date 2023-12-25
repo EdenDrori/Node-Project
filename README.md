@@ -7,9 +7,18 @@ An admin user can view and edit user details, delete cards, and manage the infor
 
 For the convenience of understanding and easy accessibility of request types, I've prepared a dedicated Postman link where you can see all types of requests, read documentation, receive details of an admin user to perform management operations, and more. You're invited to explore and get comprehensive information about the types of requests available.
 
-Postman Cards Documentation Link
+User
+Welcome to my Node.js project! In this module, I've explored handling server requests and sending them according to the requirements of the MongoDB Atlas database.
 
-Postman Users Documentation Link
+The project focuses on handling requests for users and cards. Users can register as either business customers or regular customers, send requests based on their permissions, and view relevant information. Cards can be created for business users, and all cards in the database can be displayed with additional features like liking.
+
+An admin user can view and edit user details, delete cards, and manage the information in the database for both users and cards.
+
+For the convenience of understanding and easy accessibility of request types, I've prepared a dedicated Postman link where you can see all types of requests, read documentation, receive details of an admin user to perform management operations, and more. You're invited to explore and get comprehensive information about the types of requests available.
+
+ Postman Cards documentation Link: https://documenter.getpostman.com/view/29583018/2s9Ykq71MT
+
+ Postman Users documentation Link: https://documenter.getpostman.com/view/29583018/2s9Ykq713u
 
 ***Please refer to the documentation before using the requests. Detailed explanations are available for both user and card requests. This information is required before usage.
 
