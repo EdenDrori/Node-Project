@@ -53,7 +53,6 @@ Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6IkRST1JJQ
 GET http://localhost:8080/api/v1/users/6584138779c7c6862e2017
 Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsImlhdCI6MTcwMzE1NDUwMH0.XaRGi5cil98w2anyMwjTI90u4Wq9Dk2UIDBdLBC4qCY
 
-//לבדוק אם אפשר להקפיץ שגיאה של טוקן לא טוב
 ### PUT edit user:
 PUT http://localhost:8080/api/v1/users/6582fd714ea23b54001a5c48
 Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6IkRST1JJQGJhdGNhdmUuY29tIiwiaWF0IjoxNzAzMTU0NjI0fQ.4FzMV4CUu24FOgBdVkqSnmxfqD7ObeaLEwq7d3Ax2Z
